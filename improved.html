@@ -15,7 +15,7 @@
     <center>
     <div class="tables">
         <h2>TABLES</h2>
-        <div class="plain">
+        <div class="plain eg">
            <h3>Plain simple table</h3>
              <table >
                 <tr>
@@ -56,14 +56,99 @@
                 </tr>
             </table>
         </div>
-        <div class="additional">
-            <div class="span">
-                table using rowpan to come here
+        <div class="additional ">
+            <div class="span eg">
+                <h3>Table using rowspan</h3>
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Subjects</th>
+                        <th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>2323</td>
+                        <td>James</td>
+                        <td rowspan="3">DIT</td>
+                        <td>SAD</td>
+                        <td rowspan="2">2021</td>
+                    </tr>
+                    <tr>
+                        <td>7878</td>
+                        <td>Munyaka</td>
+                        <td rowspan="2">PROGRAMING</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>6464</td>
+                        <td>Njeri</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>7658578</td>
+                        <td>Kanyugo</td>
+                        <td rowspan="3">BCS</td>
+                        <td rowspan="3">WEB</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>465356</td>
+                        <td>Jane</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>35687</td>
+                        <td>Vin</td>
+                        <td>2020</td>
+                    </tr>
+                </table>
             </div>
-            <div class="span">
-                table using colspan to come here
+            <div class="span eg">
+                <h3>Table applying colspan</h3>
+                <table> 
+                    <caption>Invoice</caption> 
+                    <tr> 
+                        <th>Item / Desc.</th> 
+                        <th>Qty.</th> 
+                        <th>@</th> 
+                        <th>Price</th> 
+                    </tr> 
+                    <tr> 
+                        <td>Paperclips (Box)</td> 
+                        <td>100</td> 
+                        <td>1.15</td> 
+                        <td>115.00</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Paper (Case)</td> 
+                        <td>10</td> 
+                        <td>45.99</td> 
+                        <td>459.90</td> 
+                    </tr> 
+                    <tr> 
+                        <td>Wastepaper Baskets</td> 
+                        <td>2</td> 
+                        <td>17.99</td> 
+                        <td>35.98</td> 
+                    </tr> 
+                    <tr> 
+                        <th colspan="3">Subtotal</th> 
+                        <td>610.88</td> 
+                    </tr> 
+                    <tr> 
+                        <th colspan="2">Tax</th> 
+                        <td>7%</td> 
+                        <td>42.76</td> 
+                    </tr> 
+                    <tr> 
+                        <th colspan="3">Total</th> 
+                        <td>653.64</td>
+                     </tr> 
+                    </table>
+
             </div>
-            <div class="combined">
+            <div class="combined eg">
                 <h3>Tables using colsapan and row span</h3>
                 <p>The table below has both colspan and rowspan  attribute used</p>
                 <table>
@@ -108,6 +193,7 @@
             </div>
         </div>
     </div>
+    </center>
     <div class="list">
         <h1>LISTS</h1>
         <div class="ordered">
@@ -142,8 +228,25 @@
                 <dt>Bachelor in Computer Science</dt>
             </dl>
         </div>
-        
+        <div class="nested">
+            <h3>Nested list</h3>
+            <ul>
+                <li>Fruit
+                  <ul>
+                    <li>Bananas</li>
+                    <li>Apples
+                      <ul>
+                        <li>Green</li>
+                        <li>Red</li>
+                      </ul>
+                    </li>
+                    <li>Pears</li>
+                  </ul>
+                </li>
+                <li>Vegetables</li>
+                <li>Meat</li>
+              </ul>
+        </div>
     </div>
-    </center>
 </body>
 </html>
